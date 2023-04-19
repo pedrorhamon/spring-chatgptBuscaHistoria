@@ -50,11 +50,11 @@ public class ChatGptService {
 		
 	}
 	
-	record ChatGPTResponse(List<Choice> choices) {
+	public record ChatGPTResponse(List<Choice> choices) {
 		
 	}
 	
-	record Choice(String text) {
+	public record Choice(String text) {
 		
 	}
 }
